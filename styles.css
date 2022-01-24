@@ -1,0 +1,69 @@
+body{
+    background-color: aliceblue;
+    font-family: cursive, 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#header-nav{
+    background-color: gray;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+  }
+  
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: serif;
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    border: white;
+    margin-top: -30px;
+  }
+ button span{
+   color: black;
+ }
+  #nav-list {
+    margin-top: 10px;
+    border-color: black;
+    border: 1px;
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    color: black;
+    background-color: white;
+  }
+
+  #main-content {
+    background-color: grey;
+    text-align: left;
+    padding: 20px;
+    margin: 15px;
+    height: 1000px;
+  }
+
+  #main-content span{
+    text-align: center;
+  }
